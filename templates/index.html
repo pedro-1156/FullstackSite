@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = 'stylesheet' href = "{{ url_for('static', filename='style.css')}}">
+    <meta charset="UTF-8">
+    <title>Site Fullstack</title>
+</head>
+<body>
+<div>
+    <form method = 'POST'>
+        <input placeholder = 'Nome' type = 'text' name = 'nome'>
+        <br><br>
+        <input placeholder = 'Email' type = 'email' name = 'email'>
+        <button type="submit">Enviar</button>
+    </form>
+    <ul>
+        {% for pessoa in pessoas %}
+            <li>ID: {{ pessoa[0] }}</li>
+            <li>Email: {{ pessoa[1] }}</li>
+            <li>Nome: {{ pessoa[2] }}</li>
+            <br><br>
+        {%endfor%}
+    </ul>
+</div>
+</body>
+</html>
