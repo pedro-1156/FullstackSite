@@ -14,8 +14,8 @@
         <button type="submit">Enviar</button>
     </form>
     <ul>
-        {% for pessoa in pessoas %}
-            <li>ID: {{ pessoa[0] }}</li>
+        {% for pessoa in pessoas %} <!--Jinja2, a way for HTML and Flask to 'Communicate'-->
+            <li>ID: {{ pessoa[0] }}</li> <!--Indexes-->
             <li>Email: {{ pessoa[1] }}</li>
             <li>Nome: {{ pessoa[2] }}</li>
             <br><br>
