@@ -1,14 +1,14 @@
-# 🔥 FullstackSite
+# FullstackSite
 
-A fullstack website built with **Python (Flask)** + **SQLite** for the backend and **HTML/CSS** for the frontend — perfect to practice your skills and showcase your projects! 😎
+A fullstack website built with **Python (Flask)** + **SQLite** for the backend and **HTML/CSS** for the frontend.
 
 ---
 
-## 💡 About
+## About
 
 This project is a fullstack website using Flask and SQLite. It demonstrates how to connect a Python backend with an HTML/CSS frontend, with working routes, templates, and a database.
 
-✨ Great for learning and expanding your portfolio!
+Great for learning and expanding your portfolio!
 
 ---
 
